@@ -5,7 +5,7 @@ const app = express();
 
 //2 Seteamos url enconded
 app.use(express.urlencoded({extended:false}));
-app.use(express.json())
+  app.use(express.json())
 
 //3 Invocamos a dontenv
 const dotenv = require('dotenv');
